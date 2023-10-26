@@ -1,11 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="title"><b>Employment Form</b></header>
+    <form>
+        <label>
+            <div class="formText">First name</div>
+            <input type="text" value="Jan">
+        </label>
+        <label>
+            <div class="formText">Last name</div>
+            <input type="text">
+        </label>
+        <label>
+            <div class="formText">E-mail</div>
+            <input type="text">
+        </label>
+        <label>
+            <div class="formText">Phone</div>
+            <input type="text">
+        </label>
+        <label>
+            <div class="formText">Date of birth</div>
+            <input type="date">
+        </label>
+        <label>
+            <div class="formText">Gender</div> 
+            <input type="text">
+        </label>
+        <label>
+            <div class="formText">Gender</div>
+            <input type="text">
+        </label>
+        <label>
+            <div class="formText">What are you looking for</div>
+            <section class="position-row">
+                <section class="position">
+                    <input type="radio" name="job-pos">
+                    Software Engineer
+                </section>
+                <section class="position">
+                    <input type="radio" name="job-pos">
+                    UX Designer
+                </section>
+                <section class="position">
+                    <input type="radio" name="job-pos">
+                    Analytical Specialist
+                </section>
+                <section class="position">
+                    <input type="radio" name="job-pos">
+                    Project Manager
+                </section>
+            </section>
+        </label>
+        <label>
+            <div class="formText">Which programing languages do you know?</div>
+            <section class="lang-column">
+                <section class="lang">
+                    <input type="checkbox">
+                    Java
+                </section>
+                <section class="lang">
+                    <input type="checkbox">
+                    Javascript
+                </section>
+                <section class="lang">
+                    <input type="checkbox">
+                    C#
+                </section>
+                <section class="lang">
+                    <input type="checkbox">
+                    Kotlin
+                </section>
+                <section class="lang">
+                    <input type="checkbox">
+                    Kotlin
+                </section>
+                <section class="lang">
+                    <input type="checkbox">
+                    Python
+                </section>
+                <section class="lang">
+                    <input type="checkbox">
+                    Scala
+                </section>
+            </section>
+        </label>
+        <label>
+        <div class="formText"> Message</div>
+            <input type="text">
+        </label>
+    </form>
+    <input type="button" value="Reset">
+    <input type="button" value="Submit">
+
 </body>
 </html>
