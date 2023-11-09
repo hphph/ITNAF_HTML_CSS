@@ -78,30 +78,30 @@
 }
 
 .cucumber {
-    width: 50%;
+    width: 30%;
     height: 40px;
     background-color: greenyellow;
     border-bottom: 15px solid green;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
-.meatball {
-    width: 70px;
-    height: 70px;
+
+.meatballs-row {
+    display: flex;
+    width: 30%;
+    height: 90px;
+}
+.meatballs {
+    flex-grow: 1;
     background-color: brown;
     border-radius: 50%;
 }
 
-.meatballs-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .bottombun {
     width: 55%;
     height: 50px;
     background-color: #d6b182;
     border-radius: 10px 10px 30px 30px;
-    border-bottom: 10px solid #d39d62;
+    border-top: 10px solid #d39d62;
 }
